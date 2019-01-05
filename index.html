@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hockey Demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,
+  user-scalable=no">
+
+  <link rel ="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.css">
+  <link rel ="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+<header>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+        data-target="#bs-example-navbar-collapse-1"aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="#">
+        <<img src="images/hockeylogo.ico" class="img-responsive"/>
+      </a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+     <ul class="nav navbar-nav navbar-right">
+      <li><a href="#">Schedule</a></li>
+      <li><a href="#">Teams</a></li>
+      <li><a href="#">Contact Us</a></li>
+     </ul>
+    </div>
+</div>
+</nav>
+</header>
+<div class="container-fluid container-sm-height">
+<div class="row row-sm-height">
+
+<section class="col-sm-8 col-sm-push-2 col-sm-height">
+  <article>
+    <div class="carousel slide" id="myCarousel" data-interval="2000">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel"data-slide-to="0" class="active" ></li>
+        <li data-target="#myCarousel"data-slide-to="1" ></li>
+        <li data-target="#myCarousel"data-slide-to="2" ></li>
+        <li data-target="#myCarousel"data-slide-to="3" ></li>
+      </ol>
+
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="images/pic1.jpg"/>
+          <div class="carousel-caption">
+            <h3>Celebration #1</h3>
+            <p>We are the winners!</p>
+          </div>
+        </div>
+       <!--v class="item">
+          <img src="images/pic8.jpg"/>
+          <div class="carousel-caption">
+            <h3>Celebration #2</h3>
+            <p>We are the winners!</p>
+          </div>
+        </div>
+        <div class="item">
+          <img src="images/pic3.jpg"/>
+          <div class="carousel-caption">
+            <h3>Celebration #3</h3>
+            <p>We are the winners!</p>
+          </div>
+        </div>
+        <div class="item">
+          <img src="images/pic4.jpg"/>
+          <div class="carousel-caption">
+            <h3>Celebration #4</h3>
+            <p>We are the winners!</p>
+          </div>
+        </div>
+      </div>-->
+
+      <a href="myCarousel" class="carousel-control left" data-slide="prev">
+        <span class="icon-prev"></span>
+      </a>
+      <a href="myCarousel" class="carousel-control right" data-slide="next">
+        <span class="icon-next"></span>
+      </a>
+
+    </div>
+  </article>  
+
+  <article>
+    <h2>Hockey players playing match in bhubaneswar</h2>
+<img src="images/pic5.jpg" class="img-responsive"/>
+<div class="row">
+  <p class="col-sm-10">
+  This is the picture where two opponent teams are trying hard for goal.</p>
+</div>  
+<div class="col-sm-2">
+  <input type="button" class="btn btn-primary" value="More..." >
+</div>
+</article>
+
+  <article>
+    <h2>Indian hockey players with flag </h2>
+<img src="images/flag2.jpg" class="img-responsive"/>
+<div class="row">
+  <p class="col-sm-10">
+  This is the picture of winning of team India in Hockey match and after that all players are showing their happiness with Indian flag.</p>
+</div>  
+<div class="col-sm-2">
+  <input type="button" class="btn btn-primary" value="More..." >
+</div>
+</article>    
+
+</section> 
+<aside class="col-sm-2 col-sm-pull-8 col-sm-height">
+ <h4>Hockey Teams</h4>
+ <div class="hockey-teams">
+  <a href="#">
+  <img src="images/logo1.ico" class="img-circle">
+  <h4>Anaheim Ducks </h4>
+    </a>
+    <a href="#">
+  <img src="images/logo2.ico" class="img-circle">
+  <h4>Arizona Coyotes</h4>
+    </a>
+    <a href="#">
+  <img src="images/logo3.ico" class="img-circle">
+  <h4>Boston<br> Bruins</h4>
+    </a>
+    <a href="#">
+  <img src="images/logo4.ico" class="img-circle">
+  <h4>Buffalo<br> Sabres</h4>
+    </a>
+    <a href="#">
+  <img src="images/logo5.ico" class="img-circle">
+  <h4>Calgary Flames</h4>
+    </a>
+    <a href="#">
+  <img src="images/logo6.ico" class="img-circle">
+  <h4>Chicago Blackhawks</h4>
+    </a>
+    <a href="#">
+  <img src="images/logo7.ico" class="img-circle">
+  <h4>Colorado Avalanche</h4>
+    </a>
+    <a href="#">
+  <img src="images/logo8.ico" class="img-circle">
+  <h4>Carolina Hurricanes</h4>
+</a>
+</div>
+</aside>
+<aside class="sports-icon-list col-sm-2 col-sm-height">
+  <table class="table table-condensed table-responsive table-striped table-hover">
+    <caption>Points Table</caption>
+    <tr>
+      <th>Team</th>
+      <th>Mts</th>
+      <th>Goal</th>
+      <th>Form</th>
+    </tr>
+    <tr>
+    <td>AD</td>
+    <td>14</td>
+    <td>20</td>
+    <td>
+     <span class="badge badge-success">W</span> 
+     <span class="badge badge-success">W</span> 
+     <span class="badge badge-danger">L</span>  
+    </td>
+    </tr> 
+    <tr>
+    <td>AC</td>
+    <td>14</td>
+    <td>16</td>
+    <td>
+     <span class="badge badge-danger">L</span>  
+     <span class="badge badge-danger">L</span>  
+     <span class="badge badge-success">W</span> 
+    </td>
+    </tr> 
+    <tr>
+    <td>BB</td>
+    <td>14</td>
+    <td>15</td>
+    <td>
+     <span class="badge badge-success">W</span> 
+     <span class="badge badge-danger">L</span>  
+     <span class="badge badge-success">W</span> 
+    </td>
+    </tr> 
+    <tr>
+    <td>BS</td>
+    <td>14</td>
+    <td>18</td>
+    <td>
+     <span class="badge badge-danger">L</span>  
+     <span class="badge badge-success">W</span> 
+     <span class="badge badge-danger">L</span>  
+    </td>
+    </tr> 
+    <tr>
+    <td>CF</td>
+    <td>14</td>
+    <td>12</td>
+    <td>
+     <span class="badge badge-danger">L</span>  
+     <span class="badge badge-success">W</span> 
+     <span class="badge badge-danger">L</span>  
+    </td>
+    </tr> 
+    <tr>
+    <td>CB</td>
+    <td>14</td>
+    <td>17</td>
+    <td>
+     <span class="badge badge-danger">L</span>  
+     <span class="badge badge-danger">L</span>  
+     <span class="badge badge-success">W</span> 
+    </td>
+    </tr> 
+    <tr>
+    <td>CA</td>
+    <td>14</td>
+    <td>13</td>
+    <td>
+     <span class="badge badge-success">W</span> 
+     <span class="badge badge-danger">L</span>  
+     <span class="badge badge-danger">L</span>  
+    </td>
+    </tr> 
+    <tr>
+    <td>CH</td>
+    <td>14</td>
+    <td>15</td>
+    <td>
+     <span class="badge badge-danger">L</span>  
+     <span class="badge badge-success">W</span> 
+     <span class="badge badge-succees">W</span> 
+    </td>
+    </tr> 
+  </table>
+  <a href="#">
+    <img src="images/goal.ico"/>
+    <h4>Goal</h4>
+  </a>   
+  <a href="#">
+    <img src="images/period.ico"/>
+    <h4>Period</h4>
+  </a>   
+  <a href="#">
+    <img src="images/penalty.ico"/>
+    <h4>Penalty</h4>
+  </a>   
+</aside>
+</div>
+</div>
+<footer class="container-fluid">
+  <p>&copy; Copyright Aastha Tripathi</p>
+  <h1>Footer Section</h1>
+</footer>
+
+<script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript"src="node_modules/bootstrap/dist/js/bootstrap.min.js "></script>
+<<script type="text/javascript"src="js/app.js"></script>
+</body> 
+</html> 
+
+
+
+
+
+
